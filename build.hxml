@@ -1,0 +1,4 @@
+-js app/bin/app.js
+-cp src
+-cp samples
+-main SideMenu
