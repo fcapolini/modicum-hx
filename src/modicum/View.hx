@@ -39,6 +39,13 @@ class View implements DataConsumer {
 		didInit != null ? didInit(this) : null;
 	}
 
+	public function dispose() {
+		for (child in children) {
+			child.dispose();
+		}
+		unlink();
+	}
+
 	public inline function getId(): String {
 		return dom.domGetAttr('id');
 	}
