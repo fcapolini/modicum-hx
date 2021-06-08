@@ -85,6 +85,9 @@ class View implements DataConsumer {
 		rangeData != null ? setArray(rangeData) : null;
 	}
 
+	public function setError(e:String) {
+	}
+
 	// =========================================================================
 	// private
 	// =========================================================================
