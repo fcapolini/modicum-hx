@@ -1,10 +1,10 @@
-package modicum;
+package modicum.core;
 
 import js.Syntax;
 import js.html.Element;
-import modicum.View.ViewProps;
+import modicum.core.View.ViewProps;
 
-using modicum.DomTools;
+using modicum.core.DomTools;
 
 /**
  * Defines a custom HTML tag

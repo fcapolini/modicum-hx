@@ -1,4 +1,4 @@
-package modicum;
+package modicum.core;
 
 import haxe.Json;
 import haxe.Http;

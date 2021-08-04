@@ -1,4 +1,4 @@
-package modicum;
+package modicum.core;
 
 #if server
 	import htmlparser.HtmlDocument;

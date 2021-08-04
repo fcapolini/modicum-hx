@@ -1,7 +1,7 @@
-package modicum;
+package modicum.core;
 
-import modicum.Data.DataConsumer;
-using modicum.DomTools;
+import modicum.core.Data.DataConsumer;
+using modicum.core.DomTools;
 
 typedef ViewProps = {
 	?dom: DomElement,

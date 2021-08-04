@@ -1,4 +1,4 @@
-import modicum.*;
+import modicum.core.*;
 
 class SideMenu {
 	static function main() {
