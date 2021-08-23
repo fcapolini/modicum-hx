@@ -34,7 +34,7 @@ class DomTools {
 #if server
 		return d.children[0];
 #else
-		return null;//TODO
+		return d.firstElementChild;
 #end
 	}
 
