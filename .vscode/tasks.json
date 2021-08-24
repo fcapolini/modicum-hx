@@ -1,22 +1,26 @@
 {
-	"version": "2.0.0",
-	"tasks": [
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
 		{
-			"type": "hxml",
-			"file": "build.hxml",
+			"label": "build",
+			"type": "shell",
+			"command": "haxe build.hxml",
 			"problemMatcher": [
-				"$haxe-absolute",
-				"$haxe",
-				"$haxe-error",
-				"$haxe-trace"
+				"$haxe-error"
 			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "haxe: build.hxml",
 			"presentation": {
-				"reveal": "silent"
+				"echo": true,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
 			}
 		}
 	]

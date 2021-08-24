@@ -1,4 +1,4 @@
--js app/bin/app.js
+-js dist/bin/app.js
 -cp src
 -cp samples
 -main SideMenu

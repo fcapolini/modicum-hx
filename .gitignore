@@ -1,2 +1,2 @@
-/app/bin
-/node_modules
+dist/bin
+node_modules
